@@ -28,8 +28,8 @@ def press(a):
     elem.click()
     
   #UPLOAD
-print("Make sure chrome webdriver is located in C:\\chromedriver_win32\\chromedriver.exe'")
-browser=webdriver.Chrome('E:\\chromedriver_win32\\chromedriver.exe')
+print("Make sure chrome webdriver is located in C:\\driver\\chromedriver.exe'")
+browser=webdriver.Chrome('C:\\driver\\chromedriver.exe')
 browser.get('http://10.46.10.114:9001/login')
 browser.maximize_window()
 time.sleep(10)
