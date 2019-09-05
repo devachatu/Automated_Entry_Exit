@@ -27,7 +27,7 @@ def Yconv(y):
     
 
 app = application.Application()
-app.start("E:\\ESSL\\Smart Office suite.exe")
+app.start("c:\\Smart Office suite.exe")
 time.sleep(5)
 SMRTOFF = app.window(title='SmartOffice Login')
 time.sleep(1)
